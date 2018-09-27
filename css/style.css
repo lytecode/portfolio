@@ -134,3 +134,46 @@ End navigation
   background: #d1f4fa;
   widows: 100%;
 }
+
+.contact h1 {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.col__form {
+  width: 30%;
+  border: 1px solid cadetblue;
+  border-radius: 8px;
+  background: white;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.talk {
+  background: cadetblue;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+#name,
+#submit,
+#email,
+#message {
+  width: 70%;
+  border: 1px solid cadetblue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+#message {
+  width: 69%;
+}
+
+#submit {
+  background: cadetblue;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  width: 75%;
+}

@@ -27,7 +27,7 @@
             </div>
 
             <div class="nav__link">
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
 
             <div class="nav__link">
@@ -184,22 +184,22 @@
 
 
     <!-- Contact Form -->
-    <div class="contact">
+    <div id="contact" class="contact">
         <h1>Contact</h1>
 
-        <div class="contact__form">
-            <div class="col">
+        <div class="contact__form flex__container flex__space-around">
+            <div class="col__form talk">
                 <h4>Let's Talk!</h4>
 
                 <p>mbonubasil@gmail.com</p>
                 <p>Lagos, Nigeria</p>
             </div>
-            <div class="col">
+            <div class="col__form">
                 <form action="" method="post">
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="your@email.com">
-                    <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-                    <input type="button" value="Send">
+                    <input id="name" type="text" name="name" placeholder="Name"><br>
+                    <input id="email" type="email" name="email" placeholder="your@email.com">
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Message"></textarea><br>
+                    <input id="submit" type="button" value="Send">
                 </form>
             </div>
         </div>
