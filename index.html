@@ -36,10 +36,19 @@
                 <a href="https://medium.com/@mbonubasil" target="_blank">Blog</a>
             </div>
         </div>
-        <div class="hambuger__menu">
+        <div class="hambuger__menu" onclick="openNav()" style="cursor:pointer">
             <i class="fas fa-bars fa-2x"></i>
         </div>
     </nav>
+
+    <!-- Side nav -->
+    <div class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="https://medium.com/@mbonubasil" target="_blank">Blog</a>
+    </div>
 
 
     <!--  Header -->
@@ -88,10 +97,12 @@
         <div class="flex__container flex__space-around">
             <div class="col">
                 <div class="col-image">
-                    <img src="./img/fiverr-web-design.png" alt="devsquare" max-width:100px;>
+                    <a href="#" target="_blank">
+                        <img src="./img/fiverr-web-design.png" alt="devsquare" max-width:100px;>
+                    </a>
                 </div>
                 <div class="col__description">
-                    <h3>A freelance project</h3>
+                    <a href="#">Devsquare</a>
                     <p>This is a freelance project done using Node, Express, MongoDB, Vuejs and other middilewares.
                     </p>
                 </div>
