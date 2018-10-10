@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  margin: 75px 0 0 0;
+  margin: 0;
   background: whitesmoke;
 }
 
@@ -278,6 +278,14 @@ form {
     padding: 20px;
   }
 
+  .header {
+    height: 65vh;
+  }
+
+  .header__title {
+    top: 8em;
+  }
+
   .flex__container {
     flex-direction: column;
   }
@@ -286,9 +294,28 @@ form {
     width: auto;
     margin: 1em 5em;
   }
+
+  /* for contact */
+  .col__form {
+    width: auto;
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 400px) {
+  .header {
+    height: 50vh;
+    background-size: contain;
+  }
+
+  .header__title {
+    display: none;
+  }
+
+  .about {
+    margin-top: -5em;
+  }
+
   .flex__container {
     flex-direction: column;
   }
@@ -296,5 +323,10 @@ form {
   .col {
     width: 80vw;
     margin: 1em auto;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 0.9em;
   }
 }
