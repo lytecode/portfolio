@@ -283,7 +283,8 @@ form {
   }
 
   .header__title {
-    top: 8em;
+    /* top: 8em; */
+    display: none;
   }
 
   .flex__container {
@@ -306,10 +307,6 @@ form {
   .header {
     height: 50vh;
     background-size: contain;
-  }
-
-  .header__title {
-    display: none;
   }
 
   .about {
