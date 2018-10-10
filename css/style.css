@@ -272,6 +272,11 @@ form {
     padding: 0;
   }
 
+  .nav__container a:hover {
+    background: none; /*#d1f4fa;  */
+    color: white;
+  }
+
   .nav__items {
     display: none;
   }
