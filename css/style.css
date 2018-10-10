@@ -85,18 +85,6 @@ Navigation
   margin-left: 50px;
 }
 
-@media (max-width: 900px) {
-  .nav__items {
-    display: none;
-  }
-  .hambuger__menu {
-    color: white;
-    display: flex;
-    margin-left: auto;
-    padding: 20px;
-  }
-}
-
 /* 
 ==================================================
 End navigation
@@ -275,4 +263,38 @@ form {
 }
 .social__media a:hover {
   color: white;
+}
+
+/* Responsive Design */
+
+@media (max-width: 900px) {
+  .nav__items {
+    display: none;
+  }
+  .hambuger__menu {
+    color: white;
+    display: flex;
+    margin-left: auto;
+    padding: 20px;
+  }
+
+  .flex__container {
+    flex-direction: column;
+  }
+
+  .col {
+    width: auto;
+    margin: 1em 5em;
+  }
+}
+
+@media (max-width: 400px) {
+  .flex__container {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 80vw;
+    margin: 1em auto;
+  }
 }
