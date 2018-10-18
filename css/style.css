@@ -161,20 +161,24 @@ End navigation
   border: 1px solid #777777;
   border-radius: 8px;
   background: cadetblue;
-  padding: 10px;
   text-align: justify;
   margin: 10px;
   color: white;
 }
 
 .col-image img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 100%;
+  border-radius: 8px;
 }
 
+.col__description{
+  padding: 2em;
+}
 .col__description a {
   text-decoration: none;
   color: white;
-  text-align: center;
+  padding: 7em;
 }
 
 /* ===========================
