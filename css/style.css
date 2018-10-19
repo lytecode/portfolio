@@ -167,7 +167,6 @@ End navigation
 }
 
 .col-image img {
-  /* max-width: 100%; */
   width: 100%;
   border-radius: 8px;
 }
@@ -309,6 +308,11 @@ form {
     margin: 1em 5em;
   }
 
+  .col-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
   /* for contact */
   .col__form {
     width: auto;
@@ -333,6 +337,11 @@ form {
   .col {
     width: 80vw;
     margin: 1em auto;
+  }
+
+  .col-image img {
+    width: 100%;
+    border-radius: 8px;
   }
 
   .footer {
